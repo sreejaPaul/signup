@@ -1,0 +1,155 @@
+.itemdiv{
+    padding: 8px;
+}
+.inneritemdiv{
+    font-size: large;
+    font-weight: bold;
+}
+.error{
+    color:red;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 250px;
+}
+input{
+    width: 600px;
+    height: 32px;
+    border-radius: 10px;
+    border-left: none;
+}
+.font{
+    height:32px;
+    background-color: white;
+    border-radius: 10px;
+    border-right: none;
+}
+.topic{
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 160px;
+    margin-left: 41px;
+}
+.fulldiv{
+    border: 1px solid black;
+    padding: 41px;
+    margin: 100px 100px 120px 225px;
+    border-radius: 5px;
+    width: 1000px;
+    background-color: white;
+}
+.submit{
+    background-color: white;
+    width: 260px;
+    height: 60px;
+    margin:20px;
+    font-weight: bold;
+    margin-left: 390px;
+    cursor: pointer;
+}
+.success{
+    padding: 10px;
+    border: 1px solid green;
+    background-color: lightgreen;
+    color:green;
+    font-weight: bold;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    font-weight: bold;
+    padding: 8px;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: grey;
+    font-weight: bold;
+    padding: 8px;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: grey;
+    font-weight: bold;
+    padding: 8px;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .itemdiv{
+        padding: 8px;
+    }
+    .inneritemdiv{
+        font-size: large;
+        font-weight: bold;
+    }
+    .error{
+        color:red;
+        font-weight: bold;
+        font-size: small;
+        margin-left: 250px;
+    }
+    input{
+        width: 500px;
+        margin: 10px;
+    }
+    .font{
+        height:32px;
+        background-color: white;
+        border-radius: 10px;
+        border-right: none;
+    }
+    .topic{       
+        width: 160px;
+        margin-left: 5px;
+    }
+    .fulldiv{
+        padding: 41px;
+        margin: 32px;
+        border-radius: 5px;
+        width: 620px;
+    }
+    .submit{
+
+        margin-left: 170px;
+    }
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    .itemdiv{
+        padding: 8px;
+    }
+    .inneritemdiv{
+        font-size: large;
+        font-weight: bold;
+    }
+    .error{
+        color:red;
+        font-weight: bold;
+        font-size: small;
+        margin-left: 250px;
+    }
+    input{
+        width: 300px;
+        margin: 10px;
+    }
+    .font{
+        height:32px;
+        background-color: white;
+        border-radius: 10px;
+        border-right: none;
+    }
+    .topic{       
+        width: 160px;
+        margin-left: 0px;
+    }
+    .fulldiv{
+        padding: 41px;
+        margin: 12px;
+        border-radius: 5px;
+        width: 330px;
+    }
+    .submit{
+        margin-left: 20px;
+    }
+}
